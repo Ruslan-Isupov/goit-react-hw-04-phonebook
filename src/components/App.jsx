@@ -51,11 +51,7 @@ export const App = () => {
   return (
     <>
       <h2>Phonebook</h2>
-      <ContactForm
-        submitForm={formSubmitHandler}
-        check={checkSameName}
-        // contacts={contacts}
-      />
+      <ContactForm submitForm={formSubmitHandler} check={checkSameName} />
 
       <h2>Contacts</h2>
       <Filter valueFilter={filter} inputFilter={changeFilter} />
